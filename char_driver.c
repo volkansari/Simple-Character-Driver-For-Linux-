@@ -140,7 +140,7 @@ static void __exit char_driver_exit(void) {
 module_init(char_driver_init);
 module_exit(char_driver_exit);
 
-MODULE_LICENSE("GPL"); // Lisans bilgisi
-MODULE_AUTHOR("Volkan SARI "); // Yazar bilgisi
+MODULE_LICENSE("GPL"); 
+MODULE_AUTHOR("Volkan SARI ");
 MODULE_DESCRIPTION("Basit Linux Karakter Cihaz Sürücüsü"
-  I); // Açıklama
+  I); 
