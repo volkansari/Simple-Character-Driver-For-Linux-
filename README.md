@@ -1,11 +1,11 @@
-#Basit Linux Karakter Cihaz Sürücüsü
+# Basit Linux Karakter Cihaz Sürücüsü
 
 Bu proje, Linux karakter cihaz sürücüsü (char device driver) yazımı için temel bir örnek sunar. Proje, cihaz dosyası üzerinden okuma ve yazma işlemlerini gerçekleştiren bir sürücü içerir. Bu çalışma, Linux kernel modülü geliştirme ile ilgilenen geliştiriciler için hazırlanmıştır.
 
 
 ---
 
-##Özellikler
+## Özellikler
 
 Okuma İşlevi: Cihazdan veri okunabilir.
 Yazma İşlevi: Cihaza veri yazılabilir.
@@ -16,7 +16,7 @@ Tampon Bellek: Kullanıcı verileri sürücünün tamponunda saklanır.
 
 ---
 
-##Gereksinimler
+## Gereksinimler
 
 Linux Kernel Headers (Kernel sürümünüze uygun başlık dosyaları)
 GCC ve Make (Derleme araçları)
@@ -25,14 +25,14 @@ GCC ve Make (Derleme araçları)
 
 ---
 
-Kurulum ve Kullanım
+## Kurulum ve Kullanım
 
 1. Kaynak Kodların Derlenmesi
 Proje dizininde aşağıdaki komutu çalıştırarak modülü derleyin:
 
-
+``` bash
 make
-
+```
 Başarılı bir şekilde derlendikten sonra char_driver.ko dosyası oluşacaktır.
 
 2. Kernel Modülünü Yükleme
