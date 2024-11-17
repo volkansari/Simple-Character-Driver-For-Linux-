@@ -27,7 +27,7 @@ GCC ve Make (Derleme araçları)
 
 ## Kurulum ve Kullanım
 
-** 1. Kaynak Kodların Derlenmesi
+1. Kaynak Kodların Derlenmesi
 Proje dizininde aşağıdaki komutu çalıştırarak modülü derleyin:
 
 ``` bash
@@ -35,7 +35,7 @@ make
 ```
 Başarılı bir şekilde derlendikten sonra char_driver.ko dosyası oluşacaktır.
 
-** 2. Kernel Modülünü Yükleme
+2. Kernel Modülünü Yükleme
 
 Modülü Linux kerneline yüklemek için:
 
@@ -43,7 +43,7 @@ Modülü Linux kerneline yüklemek için:
 sudo insmod char_driver.ko
 ```
 
-** 3. Cihaz Dosyasını Oluşturma
+3. Cihaz Dosyasını Oluşturma
 
 dmesg komutu ile major numarasını öğrenin:
 
@@ -57,7 +57,7 @@ Cihaz dosyasını oluşturmak için:
 sudo mknod /dev/char_device c <major_number> 0
 ```
 
-** 4. Cihaza Veri Yazma ve Okuma
+4. Cihaza Veri Yazma ve Okuma
 
 Veri Yazma:
 
@@ -70,7 +70,7 @@ Veri Okuma:
 cat /dev/char_device
 ```
 
-** 5. Kernel Modülünü Kaldırma
+5. Kernel Modülünü Kaldırma
 
 Modülü sistemden kaldırmak için:
 
