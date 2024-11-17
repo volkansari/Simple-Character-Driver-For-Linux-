@@ -142,5 +142,4 @@ module_exit(char_driver_exit);
 
 MODULE_LICENSE("GPL"); 
 MODULE_AUTHOR("Volkan SARI ");
-MODULE_DESCRIPTION("Basit Linux Karakter Cihaz Sürücüsü"
-  I); 
+MODULE_DESCRIPTION("Basit Linux Karakter Cihaz Sürücüsü"); 
